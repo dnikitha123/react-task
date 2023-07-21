@@ -37,7 +37,12 @@ const AddModal = ({ shown, close }) => {
       >
         <div className={cls.title}>
           <span className={cls.createText}>Create new assessment</span>
-           <img src={CloseLogo} alt="CloseLogo" className={cls.cancel} onClick={close}/>
+          <img
+            src={CloseLogo}
+            alt="CloseLogo"
+            className={cls.cancel}
+            onClick={close}
+          />
         </div>
 
         <div className={cls.lineBrk}></div>

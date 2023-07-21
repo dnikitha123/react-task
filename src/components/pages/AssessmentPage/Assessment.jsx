@@ -57,7 +57,7 @@ const Assessment = () => {
             <div className={cls.candidateGrp}>
               <span className={cls.candidateText}>Candidates</span>
               <div className={cls.subGrp}>
-                <img src={HumanLogo} alt="HumanLogo" />
+                <img src={HumanLogo} alt="HumanLogo" className={cls.humanLogo}/>
 
                 <span className={cls.numOneGrp}>
                   <span className={cls.totalNumber}>11,145</span>
@@ -83,7 +83,7 @@ const Assessment = () => {
               <span className={cls.candidateSrcText}>Candidates Source</span>
 
               <div className={cls.subGrpCndSrc}>
-                <img src={WorldLogo} alt="WorldLogo" />
+                <img src={WorldLogo} alt="WorldLogo" className={cls.worldLogo}/>
 
                 <span className={cls.numOneGrpCndSrc}>
                   <span className={cls.totalNumberCndSrc}>11,000</span>

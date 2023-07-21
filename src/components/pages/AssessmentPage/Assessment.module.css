@@ -528,6 +528,8 @@
 
 @media (max-width: 768px) {
 
+
+
     .showHideButton {
         display: block;
         cursor: pointer;
@@ -547,7 +549,8 @@
         flex-direction: column;
     }
 
-    .cardOne, .cardTwo {
+    .cardOne,
+    .cardTwo {
         margin-bottom: 14px;
     }
 
@@ -555,5 +558,164 @@
         display: block;
     }
 
-    
+    .totalGrp {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 14px;
+        padding-right: 14px;
+        /* float: left; */
+    }
+
+    .totalAsmntText,
+    .totalPrpsText {
+        color: var(--text-100, #1C4980);
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+    }
+
+    .boxNumber,
+    .totalPrpsNumber {
+        margin-top: 20px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .boxLogo,
+    .connectLogo {
+        vertical-align: top;
+        padding-top: 10px;
+        width: 16%;
+    }
+
+    .breakLines {
+        border: 3px var(--system-stroke-2, #ffffff4e);
+        border-style: groove;
+        border-left: none;
+        border-bottom: none;
+        border-right: none;
+        display: flex;
+    }
+
+    .candidateGrp {
+        margin-top: -120px;
+        padding-bottom: 10px;
+        padding-right: 14px;
+        padding-left: 14px;
+
+    }
+
+
+    .candidateText,
+    .candidateSrcText {
+        font-weight: 500;
+    }
+
+    .subGrp,
+    .subGrpCndSrc {
+        padding-top: 10px;
+    }
+
+    .numOneGrp,
+    .numOneGrpCndSrc {
+        padding-left: 8px;
+    }
+
+    .totalNumber,
+    .totalNumberCndSrc {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .plusNum,
+    .plusNumCndSrc {
+        font-size: 10px;
+        font-weight: 500;
+        padding-top: 6px;
+        padding-left: 2px;
+    }
+
+
+
+    .humanLogo {
+        vertical-align: bottom;
+        width: 16%;
+    }
+
+    .worldLogo {
+        vertical-align: bottom;
+        width: 16%;
+    }
+
+    .totalCndText,
+    .emailText {
+        font-size: 10px;
+        font-weight: 500;
+        padding-top: 4px;
+    }
+
+    .breakLogo {
+        padding-right: 4px;
+        padding-left: 4px;
+        display: inline-block;
+
+    }
+
+    .numTwoGrp,
+    .numTwoGrpCndSrc,
+    .numThreeGrpCndSrc {
+        display: inline-block;
+    }
+
+    .totalNumAttempt,
+    .totalNumSocial,
+    .totalNumUnique {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .plusNumAttempt,
+    .plusNumSocial,
+    .plusNumUnique {
+        font-size: 10px;
+        font-weight: 500;
+        vertical-align: top;
+        padding-top: 5px;
+        padding-left: 4px;
+    }
+
+    .whoAttemptText,
+    .socialText,
+    .uniqueText {
+        font-size: 10px;
+        font-weight: 500;
+        padding-top: 4px;
+    }
+
+    .candidateSorceGrp {
+        margin-top: -120px;
+        padding-bottom: 10px;
+        padding-right: 14px;
+        padding-left: 14px;
+
+    }
+
+
+    .candidateSrcText {
+        font-weight: 500;
+    }
+
+    .totalPurposeGrp {
+        padding-top: 10px;
+        padding-bottom: 16px;
+        padding-left: 16px;
+        margin-top: -120px;
+
+    }
+
+    .connectLogo {
+        width: 16%;
+    }
+
 }

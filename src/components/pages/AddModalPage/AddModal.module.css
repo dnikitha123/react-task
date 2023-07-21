@@ -16,7 +16,6 @@
     max-width: 590px;
     min-height: 200px;
     background-color: white;
-    height:fit-content;
 }
 
 .title {
@@ -30,7 +29,6 @@
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
-    line-height: normal;
 }
 
 .cancel {
@@ -206,4 +204,93 @@
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
+}
+
+
+@media (max-width: 768px) {
+
+    .modalContent {
+        width: 70%;
+        max-width: 590px;
+        min-height: 200px;
+        background-color: white;
+    }
+
+    .createText {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .title {
+        padding: 20px;
+    }
+
+    .body {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .nameText {
+        font-size: 12px;
+        font-weight: 500;
+
+    }
+
+    .nameInput {
+        width: 92%;
+    }
+
+    ::placeholder {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .purposeText,
+    .descText,
+    .skillText,
+    .durationText {
+        padding-top: 10px;
+        font-size: 12px;
+        font-weight: 500;
+        padding-bottom: 10px;
+    }
+
+    .purposeSelect select,
+    .descSelect select {
+        font-size: 12px;
+        font-weight: 500;
+
+    }
+
+
+    .skillBox span {
+        margin-bottom: 4px;
+        margin-right: 6px;
+        padding: 4px 0 4px 8px;
+        font-size: 10px;
+    }
+
+    .skillBox {
+        padding: 10px;
+    }
+
+    .skillInput,
+    .durationInput {
+        width: 87%;
+    }
+
+    .cutLogo {
+        padding-left: 2px;
+        margin-right: -16px;
+        width: 11%;
+    }
+
+    .saveBtn {
+        margin-top: 10px;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
 }
