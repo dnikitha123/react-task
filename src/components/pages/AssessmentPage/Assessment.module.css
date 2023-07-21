@@ -1,0 +1,559 @@
+.contentWrapper {
+    width: 89%;
+    padding-bottom: 1.4%;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    height: 70px;
+    padding: 0px 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    align-self: stretch;
+    border-radius: 12px 12px 0px 0px;
+    border-bottom: 1px solid var(--system-divider, #dde5ea);
+    background: #fff;
+    margin-left: 20px;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+}
+
+.assessmentText {
+    padding-top: 8px;
+    color: var(--text-100, #1c4980);
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    padding-right: 20px;
+}
+
+.line {
+    padding-right: 20px;
+    border-style: groove;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    border-color: rgba(255, 255, 255, 0.468);
+}
+
+.myAsmntText {
+    padding-top: 14px;
+    color: var(--secondary-1, #0073e6);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: -20px;
+    border-bottom: 3px solid var(--secondary-1, #0073e6);
+}
+
+.body {
+
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    border-radius: 0px 0px 12px 12px;
+    background: #fff;
+    margin-left: 20px;
+    padding-bottom: 12%;
+
+
+}
+
+.asmntOverViewText {
+    color: var(--text-100, #1C4980);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    padding-bottom: 16px;
+}
+
+.asmntGroup {
+    border-radius: 12px;
+    border: 1px solid var(--system-stroke-2, #DADCE0);
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.totalGrp {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex: 6%;
+}
+
+
+.totalAsmntText,
+.totalPrpsText {
+    color: var(--text-100, #1C4980);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.boxLogo,
+.connectLogo {
+    vertical-align: top;
+    padding-top: 16px;
+}
+
+.boxNumber,
+.totalPrpsNumber {
+    margin-top: 24px;
+    display: inline-block;
+    color: var(--text-100, #1C4980);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+.breakLines {
+    border: 3px var(--system-stroke-2, #ffffff4e);
+    border-style: groove;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    height: 7.1pc;
+}
+
+.candidateGrp {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 20px;
+    padding-left: 20px;
+    flex: 24%;
+}
+
+.candidateText {
+    color: var(--text-100, #1C4980);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.subGrp,
+.subGrpCndSrc {
+    padding-top: 16px;
+}
+
+.numOneGrp,
+.numOneGrpCndSrc {
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.totalNumber,
+.totalNumberCndSrc {
+    color: var(--text-100, #1C4980);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.plusNum,
+.plusNumCndSrc {
+    color: var(--status-success, #05C165);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    vertical-align: top;
+    padding-top: 4px;
+    padding-left: 4px;
+    display: inline-block;
+}
+
+.totalCndText,
+.emailText {
+    display: block;
+    color: #1C4980;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    padding-top: 4px;
+}
+
+.breakLogo {
+    padding-right: 20px;
+    padding-left: 20px;
+    display: inline-block;
+}
+
+.numTwoGrp,
+.numTwoGrpCndSrc,
+.numThreeGrpCndSrc {
+    display: inline-block;
+}
+
+.totalNumAttempt,
+.totalNumSocial,
+.totalNumUnique {
+    color: var(--text-100, #1C4980);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.plusNumAttempt,
+.plusNumSocial,
+.plusNumUnique {
+    color: var(--status-success, #05C165);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    vertical-align: top;
+    padding-top: 4px;
+    padding-left: 4px;
+    display: inline-block;
+}
+
+.whoAttemptText,
+.socialText,
+.uniqueText {
+    display: block;
+    color: #1C4980;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    padding-top: 4px;
+}
+
+.candidateSorceGrp {
+    flex: 34%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.candidateSrcText {
+    color: var(--text-100, #1C4980);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.totalPurposeGrp {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 20px;
+    flex: 12%
+}
+
+.title {
+    padding-top: 38px;
+}
+
+.cardGrp {
+    display: flex;
+    flex-direction: row;
+    padding-top: 16px;
+    justify-content: space-between;
+    gap: 2%;
+    width: 100%;
+}
+
+.cardOne {
+
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 33.33%;
+    border-radius: 12px;
+    border: 1px dashed var(--system-stroke-2, #DADCE0);
+    background: var(--system-background, #F6F8FA);
+}
+
+.cardOne img {
+    cursor: pointer;
+}
+
+
+.newAsmntText {
+    padding-top: 10px;
+    padding-bottom: 12px;
+    color: var(--text-100, #1C4980);
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.para {
+    color: var(--text-100, #1C4980);
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    max-width: 388px;
+    width: 82%;
+}
+
+.cardTwo {
+    flex: 33.33%;
+    padding: 16px;
+    align-items: flex-start;
+    border-radius: 12px;
+    border: 1px solid var(--system-stroke-2, #DADCE0);
+    background: var(--text-white, #FFF);
+}
+
+
+.imageGrp,
+.imageThreeGrp {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.mathText,
+.mathThreeText {
+    padding-top: 10px;
+    color: var(--text-100, #1C4980);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.strikeBrdr,
+.strikeThreeBrdr {
+    border-right: 2px solid #DADCE0;
+    height: 16px;
+    padding-left: 10px;
+
+}
+
+.jobSubGrp,
+.jobSubThreeGrp {
+    padding-top: 4px;
+}
+
+.jobText {
+    color: var(--text-100, #1C4980);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.calLogo {
+    padding-left: 10px;
+    vertical-align: text-top;
+    padding-top: 6px;
+    padding-right: 4px;
+}
+
+.dateText {
+    color: var(--primary-50, #8DA4BF);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.brkLine {
+    border: 2px var(--system-stroke-2, #DADCE0);
+    ;
+    border-style: dashed;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    padding-bottom: 16px;
+}
+
+.durationGrp {
+    padding-top: 10px;
+    display: block;
+}
+
+.durSubGrp {
+    display: inline-block;
+    padding-right: 14px;
+}
+
+.durNum,
+.quesNum {
+    color: var(--text-100, #1C4980);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.durtnText,
+.qtsnText {
+    color: var(--text-100, #1C4980);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.qustnSubGrp {
+    display: inline-block;
+}
+
+.cardThree {
+    flex: 33.33%;
+    padding: 16px;
+    align-items: flex-start;
+    border-radius: 12px;
+    border: 1px solid var(--system-stroke-2, #DADCE0);
+    background: var(--text-white, #FFF);
+}
+
+.shareSubGrp {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.shareBtn {
+    display: flex;
+    padding: 2px 8px 2px 6px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    border: 1px solid var(--text-100, #1C4980);
+    background: var(--text-white, #FFF);
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+.shareBtn img {
+    padding-right: 2px;
+}
+
+.mainSubGrp {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.nameText {
+    color: #fff;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 5px 6px;
+    border-radius: 32.728px;
+    border: 1px solid var(--text-white, #FFF);
+    background: var(--pastel-neon-blue, #6548EE);
+}
+
+.nameTwoText {
+    color: #fff;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 5px 6px;
+    border-radius: 32.728px;
+    border: 1px solid var(--text-white, #FFF);
+    background: var(--pastel-neon-blue, #6548EE);
+}
+
+.nameThreeText {
+    margin-left: -16px;
+    color: #fff;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 5px 6px;
+    border-radius: 32.728px;
+    border: 1px solid var(--text-white, #FFF);
+    background: var(--pastel-royal-blue, #3079E1);
+}
+
+.nameFourText {
+    margin-left: -16px;
+    color: #fff;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 5px 6px;
+    border-radius: 32.728px;
+    border: 1px solid var(--text-white, #FFF);
+    background: var(--accent-pink, #E9407A);
+}
+
+.showHideButton {
+    display: none;
+}
+
+
+@media (max-width: 768px) {
+
+    .showHideButton {
+        display: block;
+        cursor: pointer;
+        background-color: #0073e6;
+        color: #fff;
+        padding: 8px 16px;
+        border-radius: 8px;
+        text-align: center;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+    }
+
+    .cardGrp {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cardOne, .cardTwo {
+        margin-bottom: 14px;
+    }
+
+    .asmntGroup {
+        display: block;
+    }
+
+    
+}

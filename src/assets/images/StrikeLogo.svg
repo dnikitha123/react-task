@@ -1,0 +1,21 @@
+<svg width="2" height="46" viewBox="0 0 2 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="2" height="46" fill="#1E1E1E"/>
+<g id="Frame 1000009409">
+<rect width="1440" height="1532" transform="translate(-315 -15)" fill="#F6F8FA"/>
+<g id="Frame 1000005921">
+<g id="Frame 1000005917">
+<mask id="path-1-outside-1_0_1" maskUnits="userSpaceOnUse" x="-159" y="-12" width="1264" height="71" fill="black">
+<rect fill="white" x="-159" y="-12" width="1264" height="71"/>
+<path d="M-159 -9.53674e-07C-159 -6.62742 -153.627 -12 -147 -12H1093C1099.63 -12 1105 -6.62742 1105 0V58H-159V-9.53674e-07Z"/>
+</mask>
+<path d="M-159 -9.53674e-07C-159 -6.62742 -153.627 -12 -147 -12H1093C1099.63 -12 1105 -6.62742 1105 0V58H-159V-9.53674e-07Z" fill="white"/>
+<g id="Frame 1000005851">
+<g id="Frame 1000008941">
+<path id="Vector 298" d="M1 0V46" stroke="#DADCE0"/>
+</g>
+</g>
+<path d="M-159 -12H1105H-159ZM1105 59H-159V57H1105V59ZM-159 58V-12V58ZM1105 -12V58V-12Z" fill="#DDE5EA" mask="url(#path-1-outside-1_0_1)"/>
+</g>
+</g>
+</g>
+</svg>

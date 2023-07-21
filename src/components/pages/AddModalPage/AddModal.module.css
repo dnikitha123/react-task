@@ -1,0 +1,209 @@
+.modalBackdrop {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.modalContent {
+    width: 40%;
+    max-width: 590px;
+    min-height: 200px;
+    background-color: white;
+    height:fit-content;
+}
+
+.title {
+    padding: 30px;
+}
+
+.createText {
+    color: var(--text-100, #1C4980);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.cancel {
+    float: right;
+}
+
+.lineBrk {
+    border-bottom: 1px solid var(--system-stroke-2, #DADCE0);
+    background: #FFF;
+}
+
+.body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.nameText {
+    color: var(--text-100, #1C4980);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+
+}
+
+.nameInput {
+    padding-top: 10px;
+}
+
+.nameInput input {
+    padding: 15px;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid var(--system-stroke-2, #DADCE0);
+    background: #FFF;
+    max-width: 530px;
+    width: 94%;
+}
+
+.purposeText {
+    padding-top: 20px;
+    color: var(--text-100, #1C4980);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.purposeSelect select {
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid var(--system-stroke-2, #DADCE0);
+    max-width: 530px;
+    width: 100%;
+    padding-left: 10px;
+    color: var(--text-100, #1C4980);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+
+.descText {
+    padding-top: 20px;
+    color: var(--text-100, #1C4980);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.descSelect select {
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid var(--system-stroke-2, #DADCE0);
+    max-width: 530px;
+    width: 100%;
+    padding-left: 10px;
+    color: var(--text-100, #1C4980);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.skillText {
+    padding-top: 20px;
+    color: var(--text-100, #1C4980);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.skillBox {
+    padding: 16px;
+    border-radius: 8px 8px 0px 0px;
+    border: 1px solid var(--system-divider, #DDE5EA);
+}
+
+.skillBox span {
+    display: inline-block;
+    margin-bottom: 6px;
+    margin-right: 10px;
+    padding: 6px 8px 6px 10px;
+    color: var(--text-100, #1C4980);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    border-radius: 22px;
+    background: var(--accent-blue-light, #DDEDFF);
+}
+
+.cutLogo {
+    padding-left: 8px;
+    vertical-align: middle;
+    width: 12%;
+}
+
+.skillInput {
+    padding: 15px;
+    align-items: center;
+    border-radius: 0px 0px 8px 8px;
+    border: 1px solid var(--system-divider, #DDE5EA);
+    border: 1px solid var(--system-stroke-2, #DADCE0);
+    background: #FFF;
+    max-width: 530px;
+    width: 94%;
+}
+
+::placeholder {
+    color: var(--text-100, #1C4980);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.durationText {
+    padding-top: 20px;
+    color: var(--text-100, #1C4980);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.durationInput {
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid var(--system-stroke-2, #DADCE0);
+    background: #FFF;
+    max-width: 530px;
+    width: 94%;
+}
+
+.saveBtn {
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 8px;
+    background: var(--secondary-1, #0073E6);
+    width: 100%;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+}

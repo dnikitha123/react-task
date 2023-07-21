@@ -1,0 +1,306 @@
+/* .main {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background: #fff;
+}
+
+.content {
+    padding-top: 16px;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+.dashboardGrp {
+    padding-top: 16px;
+    padding-bottom: 12px;
+    padding-right: 20px;
+    padding-left: 20px;
+    cursor: pointer;
+
+}
+
+.dashboardLogo {
+    padding-left: 22px;
+    padding-bottom: 4px;
+}
+
+.dashboardText {
+    color: #1c4980;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.asmntGrp {
+    border-radius: 8px;
+    border: 1px solid var(--secondary-1, #0073E6);
+    background: #E5F1FC;
+    padding-top: 10px;
+    padding-left: 16px;
+    padding-bottom: 10px;
+    display: block;
+    cursor: pointer;
+
+}
+
+.asmntLogo {
+    padding-top: 10px;
+    padding-left: 24px;
+    padding-right: 20px;
+    padding-bottom: 6px;
+}
+
+.asmntText {
+    color: var(--secondary-1, #0073E6);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.libraryGrp {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    cursor: pointer;
+
+}
+
+.questionLogo {
+    padding-left: 20px;
+    padding-bottom: 4px;
+}
+
+.libraryText {
+    color: var(--text-100, #1C4980);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.adminGrp {
+    margin-top: 25px;
+    border-top: dashed 1px grey;
+    padding-top: 16px;
+}
+
+.adminBtn {
+    border-radius: 22px;
+    border: 1px solid var(--accent-new-red, #D63500);
+    background: var(--accent-red-light, #FBEBEA);
+    color: var(--accent-new-red, #D63500);
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 28px;
+    cursor: pointer;
+
+}
+
+.statusGrp {
+    padding-top: 12px;
+    padding-bottom: 10px;
+}
+
+.statusLogo {
+    padding-left: 42px;
+    padding-bottom: 6px;
+}
+
+.roundStText {
+    color: var(--text-100, #1C4980);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    padding-left: 18px;
+    width: 60%;
+} */
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background: #fff;
+}
+
+.content {
+    padding-top: 16px;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+.dashboardGrp {
+    padding-top: 16px;
+    padding-bottom: 12px;
+    padding-right: 20px;
+    padding-left: 20px;
+    cursor: pointer;
+
+}
+
+.dashboardLogo {
+    padding-left: 22px;
+    padding-bottom: 4px;
+}
+
+.dashboardText {
+    color: #1c4980;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.asmntGrp {
+    border-radius: 8px;
+    border: 1px solid var(--secondary-1, #0073E6);
+    background: #E5F1FC;
+    padding-top: 10px;
+    padding-left: 16px;
+    padding-bottom: 10px;
+    display: block;
+    cursor: pointer;
+
+}
+
+.asmntLogo {
+    padding-top: 10px;
+    padding-left: 24px;
+    padding-right: 20px;
+    padding-bottom: 6px;
+}
+
+.asmntText {
+    color: var(--secondary-1, #0073E6);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.libraryGrp {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    cursor: pointer;
+
+}
+
+.questionLogo {
+    padding-left: 20px;
+    padding-bottom: 4px;
+}
+
+.libraryText {
+    color: var(--text-100, #1C4980);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.adminGrp {
+    margin-top: 25px;
+    border-top: dashed 1px grey;
+    padding-top: 16px;
+}
+
+.adminBtn {
+    border-radius: 22px;
+    border: 1px solid var(--accent-new-red, #D63500);
+    background: var(--accent-red-light, #FBEBEA);
+    color: var(--accent-new-red, #D63500);
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 28px;
+    cursor: pointer;
+
+}
+
+.statusGrp {
+    padding-top: 12px;
+    padding-bottom: 10px;
+}
+
+.statusLogo {
+    padding-left: 42px;
+    padding-bottom: 6px;
+}
+
+.roundStText {
+    color: var(--text-100, #1C4980);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    padding-left: 18px;
+    width: 60%;
+}
+
+
+@media screen and (max-width: 767px) {
+    .content {
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+
+    .dashboardLogo,
+    .asmntLogo,
+    .questionLogo,
+    .statusLogo {
+        padding-left: 0;
+    }
+
+    .dashboardText,
+    .asmntText,
+    .libraryText,
+    .roundStText {
+        font-size: 10px;
+    }
+
+    .adminBtn {
+        font-size: 8px;
+    }
+
+    .adminGrp {
+        margin-top: 15px;
+        padding-top: 12px;
+    }
+
+    .hamburgerMenu {
+        display: block;
+    }
+
+    .navbarItems {
+        display: none;
+    }
+
+    .navbarItems.show {
+        display: block;
+    }
+
+    .mobileNavbarButton {
+        display: block;
+        padding: 10px 15px;
+        margin: 10px;
+        font-size: 12px;
+        background-color: var(--primary-color, #0073E6);
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}
